@@ -1,0 +1,25 @@
+{
+  "name": "@shopsphere/logger",
+  "version": "0.0.1",
+  "description": "winston logger private package for reusing",
+  "types": "dist/index.js",
+  "private": "true",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:pack": "tsc && pnpm pack"
+  },
+  "keywords": [
+    "winston",
+    "logger"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.21.0",
+  "dependencies": {
+    "winston": "^3.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
