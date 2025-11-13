@@ -48,6 +48,8 @@ if [[ $# -gt 0 ]]; then
   done
 else
   build_package "logger"
+  build_package "redis"
+  build_package "kafka"
 fi
 
 echo "===== Build Process Completed Successfully ====="
