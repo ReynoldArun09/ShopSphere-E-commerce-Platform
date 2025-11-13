@@ -1,0 +1,26 @@
+{
+  "name": "@shopsphere/kafka",
+  "version": "0.0.1",
+  "description": "kafka-client private package for reusing",
+  "main": "dist/index.js",
+  "types": "dist/index.js",
+  "private": "true",
+  "scripts": {
+    "build:pack": "tsc && pnpm pack"
+  },
+  "keywords": [
+    "kafka",
+    "kafka-client"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.21.0",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@shopsphere/logger": "../logger",
+    "kafkajs": "^2.2.4"
+  }
+}

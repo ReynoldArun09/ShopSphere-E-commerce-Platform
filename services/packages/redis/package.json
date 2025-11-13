@@ -1,0 +1,26 @@
+{
+  "name": "@shopsphere/redis",
+  "version": "0.0.1",
+  "description": "redis-client private package for reusing",
+  "main": "dist/index.js",
+  "private": true,
+  "types": "dist/index.js",
+  "scripts": {
+    "build:pack": "tsc && pnpm pack"
+  },
+  "keywords": [
+    "redis",
+    "redis-client"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.21.0",
+  "dependencies": {
+    "@shopsphere/logger": "../logger",
+    "redis": "^5.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
