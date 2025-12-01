@@ -50,6 +50,7 @@ else
   build_package "logger"
   build_package "redis"
   build_package "kafka"
+  build_package "utils"
 fi
 
 echo "===== Build Process Completed Successfully ====="
