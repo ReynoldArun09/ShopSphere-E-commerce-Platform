@@ -1,3 +1,4 @@
 services/**/node_modules/
-services/**/packages/
+services/**/packages/node_modules
+services/**/packages/**/dist
 services/**/.env.development/
