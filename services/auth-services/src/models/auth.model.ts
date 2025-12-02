@@ -1,19 +1,19 @@
-import { Document, model, Schema } from "mongoose";
+import { Document, model, Schema } from 'mongoose';
 
 enum ProvderType {
-  GOOGLE = "GOOGLE",
-  LOCAL = "LOCAL",
+  GOOGLE = 'GOOGLE',
+  LOCAL = 'LOCAL',
 }
 
 enum GenderType {
-  MALE = "MALE",
-  FEMALE = "FEMALE",
+  MALE = 'MALE',
+  FEMALE = 'FEMALE',
 }
 
 enum RoleType {
-  BUYER = "BUYER",
-  SELLER = "SELLER",
-  ADMIN = "ADMIN",
+  BUYER = 'BUYER',
+  SELLER = 'SELLER',
+  ADMIN = 'ADMIN',
 }
 
 export interface IPendingLogins {
@@ -151,5 +151,5 @@ export const authSchema = new Schema<IAuth>({
   },
 });
 
-const userModel = model<IAuth>("Auth", authSchema);
-export default userModel;
+const authModel = model<IAuth>('Auth', authSchema);
+export default authModel;
